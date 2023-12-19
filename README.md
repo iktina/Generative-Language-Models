@@ -10,7 +10,8 @@ Generative Language Models service for SingularityNET
 
 Example of input file content:
 
-```{
+```
+{
     "request": "Who are you?",
     "system_prompt": "You are a robot.",
     "max_new_tokens": 128,
@@ -21,7 +22,8 @@ Example of input file content:
     "repetition_penalty": 1.0,
     "length_penalty": 1,
     "model_name": "openchat/openchat_3.5",
-}```
+}
+```
 
 #### Outputs:
 `answer`: json string
@@ -32,7 +34,8 @@ Example of output file content:
 ## What to expect from this service?
 ### Inputs:
 
-```{
+```
+{
     "request": "Who are you?",
     "system_prompt": "You are a robot.",
     "max_new_tokens": 128,
@@ -43,7 +46,10 @@ Example of output file content:
     "repetition_penalty": 1.0,
     "length_penalty": 1,
     "model_name": "openchat/openchat_3.5",
-}```
+}
+```
 
 ### Outputs:
-```{"result": "Correct Assistant: I am an artificial intelligence language model."}```
+```
+{"result": "Correct Assistant: I am an artificial intelligence language model."}
+```
