@@ -1,1 +1,1 @@
-# Generative-Language-Models
+# Generative Language Models
