@@ -25,6 +25,28 @@ Example of input file content:
 }
 ```
 
+| Parameter         | Type          | Default               | Boundaries | Step      | Visible   |
+| ------------------|:---------:    | :-------:             | :-------:  | :-------: | :-------: | 
+| request           | string        | empty                 | 0 - 2000   | -         | True      |
+| system_prompt     | string        | empty                 | 0 - 2000   | -         | True      |
+| max_new_tokens    | int           | 128                   | 0 - 2000   | 1         | True      |
+| top_p             | float         | 1.0                   | 0 - 2      | 0.1       | True      |
+| temperature       | float         | 1.0                   | 0 - 2      | 0.1       | True      |
+| min_length        | int           | 4                     | 0 - 2000   | 1         | True      |
+| top_k             | int           | 50                    | 0 - 50     | 1         | True      |
+| repetition_penalty| float         | 1.0                   | 0.0 - 1.0  | 0.1       | True      |
+| length_penalty    | float         | 1.0                   | -2.0 - 2.0 | 0.1       | True      |
+| model_name        | choices       | openchat/openchat_3.5 |      -     | -         | True      |
+
+```
+model_name: [
+    "openchat/openchat_3.5",
+    "upstage/Llama-2-70b-instruct",
+    "mistralai/Mistral-7B-Instruct-v0.1",
+    "HuggingFaceH4/zephyr-7b-beta",
+]
+```
+
 #### Outputs:
 `answer`: json string
 
@@ -53,3 +75,4 @@ Example of output file content:
 ```
 {"result": "Correct Assistant: I am an artificial intelligence language model."}
 ```
+
