@@ -107,6 +107,14 @@
             {
                 "value": "zephyr-7b-beta",
                 "label": "Zephyr-7b-beta"
+            },
+            {
+                "value": "lama-3-8b-instruct",
+                "label": "Llama-3-8b-instruct"
+            },
+            {
+                "value": "llama-2-7b-chat-Q4",
+                "label": "Llama-2-7b-chat-Q4"
             }
         ]
     }
