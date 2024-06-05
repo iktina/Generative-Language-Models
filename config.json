@@ -15,7 +15,7 @@
             "max": 2000
         },
         "max_new_tokens": {
-            "default": 1000,
+            "default": 2000,
             "type": "number",
             "min": 0,
             "max": 2000,
@@ -34,13 +34,6 @@
             "min": 0,
             "max": 2,
             "step": 0.1
-        },
-        "min_length": {
-            "default": 4,
-            "type": "number",
-            "min": 0,
-            "max": 2000,
-            "step": 1
         },
         "top_k": {
             "default": 50,
