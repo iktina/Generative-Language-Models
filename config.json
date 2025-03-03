@@ -89,14 +89,6 @@
                 "label": "Llama-2-7b-Q4"
             },
             {
-                "value": "llama-2-70b-Q4",
-                "label": "Llama-2-70b-Q4"
-            },
-            {
-                "value": "llama-2-70b-instruct-Q4",
-                "label": "Llama-2-70b-instruct-Q4"
-            },
-            {
                 "value": "mistral-7b-instruct",
                 "label": "Mistral-7b-instruct"
             },
